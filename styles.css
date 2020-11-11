@@ -43,8 +43,8 @@ body{
     padding: 1rem;
 }
 
-.main-nav a:hover{
-    color: #adadad;
+.brand-logo-name:hover,.main-nav a:hover{
+    color: #1F99D0;
 }
 
 .main-header{
