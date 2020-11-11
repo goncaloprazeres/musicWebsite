@@ -31,6 +31,21 @@
     align-self: center;
 }
 
+.btn{
+    color: white;
+    background-color: #1762A7 ;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: #1D7ED4;
+}
+
 @media (max-width:780px){
     .home-main-section .img-wrapper{
         display: none;
@@ -38,6 +53,9 @@
 
     .home-main-section{
         justify-content: center;
+    }
+    .btn{
+        align-self: center;
     }
 }
 
@@ -65,15 +83,16 @@
 
   .home-page-circle-3 {
     position: absolute;
+    overflow: hidden;
     width: 30vw;
     height: 30vw;
-    border-radius: 50%;
     bottom: 0;
     right: 0;
     z-index: -1;
   }
   .home-page-circle-3::before{
     content: '';
+    transform: translate(40%,40%);
     position: absolute;
     height: 100%;
     width: 100%;
