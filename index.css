@@ -31,20 +31,6 @@
     align-self: center;
 }
 
-.btn{
-    color: white;
-    background-color: #1762A7 ;
-    padding: .75rem 1.5rem;
-    border-radius: .5rem;
-    font-size: .9rem;
-    text-align: center;
-    margin-top: 1rem;
-    text-decoration: none;
-    
-}
-.btn:hover{
-    background-color: #1D7ED4;
-}
 
 @media (max-width:780px){
     .home-main-section .img-wrapper{
