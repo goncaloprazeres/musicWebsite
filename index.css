@@ -46,7 +46,7 @@
     background-color: #1D7ED4;
 }
 
-@media (max-device-width:780px){
+@media (max-width:780px){
     .home-main-section .img-wrapper{
         display: none;
     }
